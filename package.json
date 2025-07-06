@@ -1,0 +1,35 @@
+{
+  "name": "modanmicstudents",
+  "version": "1.0.0",
+  "description": "teaching call for NIIT Students",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Oluwatsin.A",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "ip": "^2.0.0",
+    "mailersend": "^2.2.0",
+    "moment": "^2.30.1",
+    "mongoose": "^6.5.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "send-crypto": "^0.2.38",
+    "stripe": "^14.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
